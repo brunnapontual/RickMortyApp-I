@@ -1,7 +1,8 @@
 {
   "name": "rickmortyapp",
   "version": "1.0.0",
-  "main": "index.ts",
+  "private": "true",
+  "type": "module",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
