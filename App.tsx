@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
-import {SafeAreaView, View, Text, FlatList, Image, ActivityIndicator, TouchableOpacity, Modal, StyleSheet, Button, Dimensions} from "react-native";
+import { View, Text, FlatList, Image, ActivityIndicator, TouchableOpacity, Modal, StyleSheet, Button, Dimensions } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type Character = {
   id: number;
